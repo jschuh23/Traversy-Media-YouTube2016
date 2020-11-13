@@ -11,22 +11,22 @@ MY ADJUSTMENTS
 
 2. Utilized Sass and created a 7-1 folder structure containing the following folders and files:
     - abstracts
-        _variables.scss
-        _functions.scss
+        - _variables.scss
+        - _functions.scss
     - base
-        _reset.scss
-        _typography.scss
-        _utilities.scss
+        - _reset.scss
+        - _typography.scss
+        - _utilities.scss
     - components
-        _buttons.scss
+        - _buttons.scss
     - layout
-        _navigation.scss
-        _forms.scss
-        _responsive.scss
+        - _navigation.scss
+        - _forms.scss
+        - _responsive.scss
     - pages
-        _home.scss
-        _about.scss
-        _services.scss
+        - _home.scss
+        - _about.scss
+        - _services.scss
 
 3. Utilized the BEM (Block Element Modifier) methodology for my naming convention in HTML and CSS
 
