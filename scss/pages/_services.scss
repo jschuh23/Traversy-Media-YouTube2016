@@ -1,0 +1,20 @@
+.services__main {
+  h2 {
+    margin-bottom: 1em;
+  }
+}
+
+.services__main--info {
+  .services {
+    margin-bottom: 2em;
+    border: solid 1px $dark-color;
+  }
+
+  & .services--type {
+    margin-bottom: 1em;
+  }
+
+  & aside {
+    margin-top: 2em;
+  }
+}

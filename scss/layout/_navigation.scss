@@ -1,0 +1,24 @@
+.header__main {
+  border-bottom: solid 3px $primary-color;
+}
+
+.nav__logo span {
+  color: $primary-color;
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+  }
+
+  a.current {
+    color: $primary-color;
+  }
+
+  a:hover {
+    border-bottom: solid 2px $primary-color;
+    padding-bottom: 0.5em;
+  }
+}

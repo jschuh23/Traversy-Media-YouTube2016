@@ -1,0 +1,28 @@
+
+
+.text--center {
+  text-align: center;
+}
+
+// *Background styling
+.bg--primary {
+  background-color: $primary-color;
+  color: set-text-color($primary-color);
+}
+.bg--light {
+  background-color: $light-color;
+  color: set-text-color($light-color);
+}
+.bg--medium {
+  background-color: $medium-color;
+  color: set-text-color($medium-color);
+}
+.bg--dark {
+  background-color: $dark-color;
+  color: set-text-color($dark-color);
+}
+
+// *Padding styling
+.pad--2 {
+  padding: 2em;
+}

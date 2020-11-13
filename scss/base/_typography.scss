@@ -1,0 +1,41 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  a {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
+
+.nav__logo {
+  font-size: clamp(2rem, calc(1.6667rem + 1.0417vw), 3rem);
+
+  & span {
+    font-weight: bold;
+  }
+}
+
+.hero__main--text {
+  font-size: clamp(2.6rem, calc(1.6333rem + 3.0208vw), 5.5rem);
+}
+
+h2 {
+  font-size: clamp(2rem, calc(1.8667rem + 0.4167vw), 2.4rem);
+}
+
+h3,
+p,
+.form--label {
+  font-size: clamp(1.4rem, calc(1.2667rem + 0.4167vw), 1.8rem);
+}
+
+.btn--primary {
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+// Subscribe - newsletter form
+.subscribe__main {
+  &--text {
+    margin-bottom: 0.7em;
+  }
+
+  &--form {
+    .form--label {
+      margin-right: 0.5em;
+    }
+
+    input {
+      width: 80%;
+      height: 3em;
+      margin-bottom: 1em;
+    }
+
+    button[type='submit'] {
+      width: 10em;
+    }
+  }
+}
+
+// Services page form
+.sidebar__form--info {
+  input {
+    width: 90%;
+    height: 3em;
+    margin-bottom: 1.5em;
+  }
+
+  textarea {
+    width: 90%;
+    height: 5em;
+    margin-bottom: 1.5em;
+  }
+
+  button[type='submit'] {
+    width: 90%;
+  }
+}

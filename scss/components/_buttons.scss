@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 1em 2em;
+
+  &--primary {
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+  }
+
+  &:hover {
+    background-color: $medium-color;
+    color: $dark-color;
+  }
+}
