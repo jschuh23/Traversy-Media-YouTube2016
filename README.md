@@ -5,9 +5,9 @@ This project followed the design presented in the YouTube video (https://www.you
 
 MY ADJUSTMENTS
 1. Mobile-first design with media queries set at:
-    - min-width:500px
-    - min-width:768px
-    - min-width:1280px
+    - ```min-width:500px```
+    - ```min-width:768px```
+    - ```min-width:1280px```
 
 2. Utilized Sass and created a 7-1 folder structure containing the following folders and files:
     - abstracts
@@ -34,4 +34,4 @@ MY ADJUSTMENTS
 
 5. Used Grid and Flexbox for layouts
 
-6. Used the clamp() CSS function for certain font-sizes to make them more responsive
+6. Used the ```clamp()``` CSS function for certain font-sizes to make them more responsive
